@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="main.css" rel="stylesheet" media="all">
+<meta name="description" content="Generating Seamless Global Daily AMSR2 Soil Moisture Long-term Productions (2013-2019)" />
+<meta name="keywords" content="AMSR2">
+<link rel="shortcut icon" href="figures/favicon.ico">
+<title>Soil Moisture Dataset</title>
+</head>
+
+
+
+<body>
+</br>
+<h2 class="auto-style1">Generating Seamless Global Daily AMSR2 Soil Moisture Long-term Productions (2013-2019)</h2>
+<p class="auto-style7"  align="center"><a href="https://qzhang95.github.io">Qiang Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;  
+<a href="http://qqyuan.users.sgg.whu.edu.cn/">Qiangqiang Yuan</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="https://www.researchgate.net/profile/Yuan_Wang209">Yuan Wang</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html">Liangpei Zhang</a><sup>1</sup></p>
+<p class="auto-style7"  align="center"></a><sup>1</sup><i>State Key Laboratory of Information Engineering, Survey Mapping and Remote Sensing, Wuhan Univeristy</i></br></p>
+<p class="auto-style7"  align="center"></a><sup>2</sup><i>School of Geodesy and Geomatics, Wuhan Univeristy</i></br></p>
+
+
+<table border="0" align="center">
+
+<tr>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=520px src="figures/ori.gif"></td>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=40px src="figures/arrow.png"></td>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=520px src="figures/rec.gif"></td>
+</tr>
+<tr>
+<td class="auto-style11-c">(a) Original</td>
+<td class="auto-style11-c"> </td>
+<td class="auto-style11-c">(b) Reconstructed</td>
+</tr>
+<tr>
+</table>
+<p class="auto-style11-c"><b>Fig. 1.</b> Original/Reconstructed AMSR2 Global Daily 0.25° Soil Moisture Productions
+</p>
+
+
+<p class="style2"><strong><span class="auto-style6">Abstract</span></strong></p>
+<p class="auto-style5" style="text-align:justify; text-justify:inter-ideograph;">High quality and long-term soil moisture productions are significant for hydrologic monitoring and agricultural management. 
+ However, <b><font color="red">the acquired daily soil moisture productions are incomplete in global land (about 30%~80%)</font></b>, due to the satellite orbit coverage and the limitations of soil moisture retrieving algorithms.
+ To solve this inevitable problem, we develop a novel 3-D spatio-temporal partial convolutional neural network for Advanced Microwave Scanning Radiometer 2 (AMSR2) soil moisture productions gap-filling. 
+ <b><font color="red">Through the proposed method, we generate the seamless global daily AMSR2 soil moisture long-term productions from 2013 to 2019</font></b>.
+ To further validate the effectiveness of these productions, three verification ways are employed as follow: <br /><br />
+ <b>1) In-situ validation;</b><br />
+ <b>2) Time-series validation;</b><br />
+ <b>3) Simulated missing regions validation.</b><br /><br />
+ Results show that the reconstructing soil moisture productions have good agreement with the selected 999 ISMN stations (correlation coefficient: 0.99-0.99, overall bias: -0.4-1.8 m3/m3). 
+ The temporal continuity of the daily long-term productions is ensured with the original time-series distribution (correlation coefficient: 0.99-0.99, overall bias: -0.4-1.8 m3/m3,). 
+ Besides, the spatial uniformity of the reconstructing regions is also accord with the context information. (correlation coefficient: 0.99-0.99, overall bias: -0.4-1.8 m3/m3).</p>
+<p class="auto-style5">&nbsp;</p>
+
+
+
+
+
+<p id="Dataset Download", class="auto-style4"><strong>Dataset Download</strong></p>
+
+<table cellSpacing=4 cellPadding=25 border=0 style="width: 100%">
+<tr COLSPAN="2">
+<td align="center" valign="center">
+<img style="padding:0; clear:both; " src="figures/download.png" align="left" alt="download" class="png" width="200" /></td>
+<td align="right" class="auto-style5">
+Q. Zhang, Q. Yuan, Y. Wang, L. Zhang.
+<b>Generating Seamless Global Daily AMSR2 Soil Moisture Long-term Productions (2013-2019)</b>,
+Submitted to <i>Remote Sensing of Environment</i>, 2020.<br><br>
+<img alt="" height="16" src="figures/BaiduYun_favicon.ico" width="16">&nbsp;&nbsp;
+[<a href="https://pan.baidu.com/s/1SGdKmfgUgUBmcWse-cDsWg">Baidu Yun</a>] (Extracting Code: fu8f)<br>
+</br>
+<img alt="" height="16" src="figures/GoogleDrive_favicon.ico" width="16">&nbsp;&nbsp;
+[<a href="https://drive.google.com/file/d/1pGoX12Va3k6o9ybIMBjpDDHLbcUShM1P/view?usp=sharing">Google Drive</a>]<br>
+</br>
+<img alt="" height="16" src="figures/BaiduYun_favicon.ico" width="16">&nbsp;&nbsp;
+[<a href="http://doi.org/10.5281/zenodo.3960425">Zenodo</a>]<br>
+
+</td>
+</tr>
+</table>
+<br>
+<br>
+
+<p class="auto-style4" id=experiment><strong>Experimental Results</strong></p>
+<table border="0" align="center">
+<tr>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=360px src="figures/web_fig2_a.gif"></td>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=360px src="figures/web_fig2_b.gif"></td>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=360px src="figures/web_fig2_c.gif"></td>
+</tr>
+<tr>
+<td class="auto-style11-c">(a) 2019.06.01</td>
+<td class="auto-style11-c">(b) 2019.06.15</td>
+<td class="auto-style11-c">(c) 2019.06.30</td>
+</tr>
+<tr>
+</table>
+<p class="auto-style11-c"><b>Fig. 2.</b> Original/reconstructing global daily SM results in June, 2019  
+</p>
+
+
+<table border="0" align="center">
+<tr>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=360px src="figures/web_fig3_a.gif"></td>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=360px src="figures/web_fig3_b.gif"></td>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=360px src="figures/web_fig3_c.gif"></td>
+</tr>
+<tr>
+<td class="auto-style11-c">(a) 2016.10.01</td>
+<td class="auto-style11-c">(b) 2016.10.15</td>
+<td class="auto-style11-c">(c) 2016.10.30</td>
+</tr>
+<tr>
+</table>
+<p class="auto-style11-c"><b>Fig. 3.</b> Original/reconstructing global daily SM results in October, 2016 
+</p>
+
+
+<table border="0" align="center">
+<tr>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=360px src="figures/web_fig4_a.gif"></td>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=360px src="figures/web_fig4_b.gif"></td>
+<td style="width: 4rem;height: 2rem;border: 0px solid #ccc;text-align: center"><img width=360px src="figures/web_fig4_c.gif"></td>
+</tr>
+<tr>
+<td class="auto-style11-c">(a) 2013.08.01</td>
+<td class="auto-style11-c">(b) 2013.08.15</td>
+<td class="auto-style11-c">(c) 2013.08.30</td>
+</tr>
+<tr>
+</table>
+<p class="auto-style11-c"><b>Fig. 4.</b> Original/reconstructing global daily SM results in August, 2013  
+</p>
+
+
+
+<br><br>
+<p class="auto-style4" id=results><strong>Validation Results</strong></p>
+
+
+<table border="0" align="center">
+<tr>
+<td colspan=2 style="width: 4rem;height: 2rem;border: 1px solid #ccc;text-align: center"><img width=600 src="Figures/results/res1_1.png"></td>
+</tr>
+<tr>
+	<td colspan=2 class="auto-style11-c">(a) Selected input frames</td>
+</tr>
+<tr>
+	<td style="width: 4rem;height: 2rem;border: 1px solid #ccc;text-align: center"><img width=300px src="Figures/results/res1_2.png"></td>
+	<td style="width: 4rem;height: 2rem;border: 1px solid #ccc;text-align: center"><img width=300px src="Figures/results/res1_3.png"></td>
+</tr>
+<tr>
+	<td class="auto-style11-c">(b) Result of [7]</td>
+	<td class="auto-style11-c">(c) Our result</td>
+</tr>
+<tr>
+</table>
+
+
+
+<p class="auto-style5">&nbsp;</p>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+</body>
+
+</html>
