@@ -46,7 +46,7 @@ img.lazyload {
 </tr>
 <tr>
 </table>
-<p class="auto-style11-c"><b>Fig. 1.</b> Original/Reconstructed  AMSR2 Global Daily 0.25° Soil Moisture Time-series Productions
+<p class="auto-style11-c"><b>Fig. 1.</b> Original/Reconstructed  AMSR2 Time-series Global Daily 0.25° Soil Moisture Productions
 </p>
 <br>
 <br>
@@ -320,14 +320,8 @@ Besides, the spatial continuity of the reconstructed regions is also accorded wi
 
 <script type="text/javascript" charset="utf-8">
 window.addEventListener("load", function(event) {
-    /* This is just to add random string after each url. Do not copy. */
-    /* Yes, you... Do not copy. */
-    let images = document.querySelectorAll(".lazyload2");
-    images.forEach(image => {
-        let src = image.getAttribute("data-src");
-        image.setAttribute("data-src", src + "?" + Math.random());
-    });
-    lazyload(images);
+    console.log("LOAD!");
+    lazyload();
 });
 </script>
 
