@@ -77,7 +77,16 @@ img.lazyload {
 <br>
 
 
-
+<script type="text/javascript" charset="utf-8">
+window.addEventListener("load", function(event) {
+    let images = document.querySelectorAll(".lazyload2");
+    images.forEach(image => {
+        let src = image.getAttribute("data-src");
+        image.setAttribute("data-src", src + "?" + 0.5);
+    });
+    lazyload(images);
+});
+</script>
 
 
 </body>
