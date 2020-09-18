@@ -1,7 +1,43 @@
 /* Default css file for jemdoc. */
 
-/* Menu */
+/* Arrow */
+.arrow {
+    border: 9px solid transparent;
+    border-bottom-color: #8A9DA8;
+    width: 0px;
+    height: 0px;
+    top:0px
+}
 
+.stick {
+    width: 8px;
+    height: 14px;
+    border-radius: 1px;
+    background-color: #8A9DA8;
+    top:15px;
+}
+
+#back_top div {
+    position: absolute;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+}
+
+#back_top {
+    background-color: #E7E8E6;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 25px;
+    display: none;
+}
+
+/* Menu */
 .menu {
 	/* background-color: #527bbd; */
 	background-color: #224b8d;
