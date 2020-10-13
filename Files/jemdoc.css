@@ -108,7 +108,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Times New Roman;
+	font-family: ‘Times New Roman’, Times, serif;
 	padding-bottom: 8px;
 	margin: 0;
 }
