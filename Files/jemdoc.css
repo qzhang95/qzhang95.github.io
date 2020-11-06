@@ -106,11 +106,17 @@ table#tlayout {
     background: white;
 }
 
+@font-face {
+  font-family: myFont;
+  src: local("Palatino Linotype");
+  unicode-range: U+30-39;
+}
+
 body {
-	background: white;
-	font-family: Georgia;
-	padding-bottom: 8px;
-	margin: 0;
+ background: white;
+ font-family: myFont, Georgia;
+ padding-bottom: 8px;
+ margin: 0;
 }
 
 #layout-menu {
